@@ -37,10 +37,12 @@ const Navbar = ({ greeting }) => {
                     }
                 </ul>
                 <div className='carrito-div'>
+                    <Link to={"/cart"}>
                     <a href="/" className='carro-act'>
                         <CartWidget />
                         <p>Carrito</p>
                     </a>
+                    </Link>
                 </div>
             </nav>
         </header>

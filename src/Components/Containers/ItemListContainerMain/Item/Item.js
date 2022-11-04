@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "@mui/material/Card";
+import { Link } from "react-router-dom";
 import {
   CardContent,
   CardMedia,
@@ -8,7 +9,7 @@ import {
   CardActionArea,
   CardActions,
 } from "@mui/material";
-import "../ItemListContainer/ItemListContainer.css"
+import "../Item/item.css"
 
 const Item = ({ product }) => {
   return (
@@ -35,9 +36,11 @@ const Item = ({ product }) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
+        <Link to={"/producto/" + product.id}>
         <Button size="small" color="primary">
           Ver Detalles
         </Button>
+        </Link>
       </CardActions>
     </Card>
   );

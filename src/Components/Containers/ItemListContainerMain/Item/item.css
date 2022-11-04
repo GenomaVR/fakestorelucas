@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-main {
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    border: solid black 3px;
+}
+
+.product-img{
+    width: 400px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.precio-boton {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton-sumar {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.agregarCarrito {
+    width: 150px;
+    height: 30px;
+}
+
+.cantidadCarro{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nombrecarrito {
+    margin: 0px;
+}
+
+.finalizarCompra{
+    width: 200px;
+}
